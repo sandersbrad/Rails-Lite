@@ -93,7 +93,7 @@ describe Phase4::ControllerBase do
     let(:args) { ['test', 'text/plain'] }
     include_examples "storing session data"
   end
-
+#
   describe "#redirect_to" do
     let(:method) { :redirect_to }
     let(:args) { ['http://appacademy.io'] }
